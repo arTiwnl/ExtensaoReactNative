@@ -44,4 +44,18 @@ O projeto está organizado da seguinte forma:
    ```bash
    git clone https://github.com/seu-usuario/controle-presenca-app.git
 
+-
+
+   ```bash
 cd controle-presenca-app
+
+-
+   ```bash
+npm install
+
+-
+   ```bash
+expo start
+
+-
+O Expo abrirá um terminal interativo onde você pode escolher emular o aplicativo em um dispositivo ou em um simulador.
