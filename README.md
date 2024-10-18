@@ -1,3 +1,4 @@
+
 # Controle de Presença - LM MULTFITNESS
 
 Este repositório contém o código-fonte do aplicativo de controle de presença desenvolvido para o estúdio **LM MULTFITNESS** como parte de uma atividade de extensão realizada no IFMA. O aplicativo foi desenvolvido utilizando **React Native** e tem como objetivo registrar presenças, gerenciar mensalidades e melhorar a experiência dos alunos e colaboradores do estúdio.
@@ -17,10 +18,10 @@ Este repositório contém o código-fonte do aplicativo de controle de presença
 
 ## Estrutura do Projeto
 
-O projeto está organizado da seguinte forma:
+A estrutura do projeto está organizada da seguinte maneira:
 
+```
 /controle-presenca-app
-│
 ├── /assets          # Imagens e outros arquivos de mídia utilizados no app
 ├── /components      # Componentes reutilizáveis da interface do usuário
 ├── /screens         # Telas principais do aplicativo
@@ -28,31 +29,42 @@ O projeto está organizado da seguinte forma:
 ├── App.js           # Arquivo principal do aplicativo
 ├── package.json     # Dependências e scripts do projeto
 └── README.md        # Documentação do projeto
-
+```
 
 ## Configuração e Execução
 
 ### Pré-requisitos
 
-- Node.js (v14 ou superior)
-- Expo CLI
-- Git
+- **Node.js** e **npm** instalados em seu sistema.
+- **Expo CLI** instalada globalmente: `npm install -g expo-cli`
 
-### Passo a Passo
+### Instalação
 
-1. Clone este repositório:
+1. Clone este repositório: 
    ```bash
    git clone https://github.com/seu-usuario/controle-presenca-app.git
-
-
+   ```
+2. Navegue até o diretório do projeto:
    ```bash
-cd controle-presenca-app
-
+   cd controle-presenca-app
+   ```
+3. Instale as dependências:
    ```bash
-npm install
+   npm install
+   ```
 
-   ```bash
+### Executando o Projeto
+
+Para rodar o aplicativo em um emulador ou dispositivo físico, utilize o comando:
+```bash
 expo start
+```
+Depois, escaneie o QR code com o aplicativo **Expo Go** no seu dispositivo móvel ou abra no emulador de sua escolha.
 
--
-O Expo abrirá um terminal interativo onde você pode escolher emular o aplicativo em um dispositivo ou em um simulador.
+## Contribuição
+
+Caso queira contribuir para o projeto, sinta-se à vontade para abrir um **pull request** ou relatar um problema em **Issues**.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
